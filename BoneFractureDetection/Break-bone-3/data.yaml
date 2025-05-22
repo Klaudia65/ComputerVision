@@ -1,0 +1,22 @@
+names:
+- Avlusion Fracture
+- Comminuted Fracture
+- Compression-Crush Fracutre
+- Fracture Dislocation
+- GreenStick Fracture
+- HairLine Fracture
+- Impact Fracture
+- Intra-articular fracture
+- 'Null'
+- Oblique fracture
+- spiral fracture
+nc: 11
+roboflow:
+  license: CC BY 4.0
+  project: break-bone
+  url: https://universe.roboflow.com/ahmedali-aqmwq/break-bone/dataset/3
+  version: 3
+  workspace: ahmedali-aqmwq
+train: C:/Users/Klaudia/Documents/3cours_ST/semestre2/computer_vision/projet3/Break-bone-3/train/images
+val: C:/Users/Klaudia/Documents/3cours_ST/semestre2/computer_vision/projet3/Break-bone-3/valid/images
+test: C:/Users/Klaudia/Documents/3cours_ST/semestre2/computer_vision/projet3/Break-bone-3/test/images
