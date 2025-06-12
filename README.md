@@ -81,7 +81,7 @@ After 70 epochs of training, the model achieved promising results:
 ### Visual Results:
 The repository includes visual comparisons of labeled ground truth versus model predictions, demonstrating the model's ability to efficiently detect fractures in most cases.
 
-![Example of a result](BoneFractureDetection\runs\detect\train9\val_batch2_labels.jpg)
+![Example of a result](BoneFractureDetection/runs/detect/train9/val_batch2_labels.jpg)
 ![Example of a result](BoneFractureDetection\runs\detect\train9\val_batch2_pred.jpg)
 *Image of Labeled images and Model's predictions*
 
