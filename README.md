@@ -82,14 +82,14 @@ After 70 epochs of training, the model achieved promising results:
 The repository includes visual comparisons of labeled ground truth versus model predictions, demonstrating the model's ability to efficiently detect fractures in most cases.
 
 ![Example of a result](BoneFractureDetection/runs/detect/train9/val_batch2_labels.jpg)
-![Example of a result](BoneFractureDetection\runs\detect\train9\val_batch2_pred.jpg)
+![Example of a result](BoneFractureDetection/runs/detect/train9/val_batch2_pred.jpg)
 *Image of Labeled images and Model's predictions*
 
 
 ### Precision-Recall Curve:
 The precision-recall curve provides insights into the model's performance for each class. Classes with curves closer to the upper-right corner indicate strong performance (high precision and recall).
 
-![Precision-Recall Curve](BoneFractureDetection\runs\detect\train9\PR_curve.png)
+![Precision-Recall Curve](BoneFractureDetection/runs/detect/train9/PR_curve.png)
 *Precision-Recall Curve showing performance for different fracture classes.*
 
 ### Normalized Confusion Matrix:
@@ -97,7 +97,7 @@ The confusion matrix highlights which classes are most accurately predicted and 
 * **Most Accurately Predicted:** Avulsion (82%), Comminuted (81%), Compression-Crush (79%).
 * **Frequent Confusions:** Some fractures classified as background (up to 28%); HairLine and Fracture Dislocation also show some confusion.
 
-![Confusion Matrix Normalized](BoneFractureDetection\runs\detect\train9\confusion_matrix_normalized.png)
+![Confusion Matrix Normalized](BoneFractureDetection/runs/detect/train9/confusion_matrix_normalized.png)
 *Normalized Confusion Matrix illustrating classification accuracy and common confusions.*
 
 ## Demo
