@@ -1,16 +1,13 @@
 names:
-- Avlusion Fracture
+- Alvusion Fracture
 - Comminuted Fracture
-- Compression-Crush Fracutre
+- Compression-Crush Fracture
 - Fracture Dislocation
 - GreenStick Fracture
 - HairLine Fracture
 - Impact Fracture
-- Intra-articular fracture
-- 'Null'
-- Oblique fracture
-- spiral fracture
-nc: 11
+
+nc: 7
 roboflow:
   license: CC BY 4.0
   project: break-bone

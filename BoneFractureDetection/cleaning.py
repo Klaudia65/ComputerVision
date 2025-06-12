@@ -1,12 +1,11 @@
 import os
 
-labels_dir = r"Break-bone-3/train/labels"  # adapte le chemin pour valid/test si besoin
+labels_dir = r"Break-bone-3/train/labels"  
 label_count = {}
 
-# Nombre de classes (doit correspondre à la longueur de names dans data.yaml)
-num_classes = 11
+num_classes = 7
+#count how many objects are labeled for each class
 
-# Initialiser le compteur pour chaque label
 for i in range(num_classes):
     label_count[i] = 0
 
